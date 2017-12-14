@@ -12,6 +12,7 @@
 		6DF387C81FE2CC6D00127C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF387C71FE2CC6D00127C3C /* Assets.xcassets */; };
 		6DF387CB1FE2CC6D00127C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF387C91FE2CC6D00127C3C /* LaunchScreen.storyboard */; };
 		6DF387CE1FE2CC6D00127C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF387CD1FE2CC6D00127C3C /* main.m */; };
+		6DFC6D5F1FE2D15E00CC5156 /* YLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC6D5E1FE2D15E00CC5156 /* YLNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		6DF387CA1FE2CC6D00127C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DF387CC1FE2CC6D00127C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF387CD1FE2CC6D00127C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DFC6D5D1FE2D15E00CC5156 /* YLNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLNetwork.h; sourceTree = "<group>"; };
+		6DFC6D5E1FE2D15E00CC5156 /* YLNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLNetwork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				6DF387C91FE2CC6D00127C3C /* LaunchScreen.storyboard */,
 				6DF387CC1FE2CC6D00127C3C /* Info.plist */,
 				6DF387CD1FE2CC6D00127C3C /* main.m */,
+				6DFC6D5D1FE2D15E00CC5156 /* YLNetwork.h */,
+				6DFC6D5E1FE2D15E00CC5156 /* YLNetwork.m */,
 			);
 			path = "neural-networks-and-deep-learning-for-iOS";
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DF387C31FE2CC6D00127C3C /* ViewController.m in Sources */,
+				6DFC6D5F1FE2D15E00CC5156 /* YLNetwork.m in Sources */,
 				6DF387CE1FE2CC6D00127C3C /* main.m in Sources */,
 				6DF387C01FE2CC6D00127C3C /* AppDelegate.m in Sources */,
 			);

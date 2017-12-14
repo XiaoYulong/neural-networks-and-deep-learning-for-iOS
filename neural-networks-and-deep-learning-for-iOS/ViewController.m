@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YLNetwork.h"
 @interface ViewController ()
 
 @end
@@ -20,6 +20,8 @@
     label.text = @"Hello World";
     label.textColor = [UIColor darkTextColor];
     [self.view addSubview:label];
+    
+    YLNetwork *network = [[YLNetwork alloc] initWithNetworkStructure:@[@(2), @(3), @(1)]];
 }
 
 
