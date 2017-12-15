@@ -21,7 +21,7 @@
     label.textColor = [UIColor darkTextColor];
     [self.view addSubview:label];
     
-    YLNetwork *network = [[YLNetwork alloc] initWithNetworkStructure:@[@(2), @(3), @(1)]];
+    YLNetwork *network = [[YLNetwork alloc] initWithNetworkStructure:@[@(2), @(3), @(4)]];
 }
 
 
